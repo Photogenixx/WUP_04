@@ -27,7 +27,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 The decision was made to use a boxplot and favstats to analyze our information
-To 
+
 ``````{r eval=FALSE}
 wup04data <- wup04data %>%
 mutate(across(where(is.character), as.factor))
