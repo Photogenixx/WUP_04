@@ -89,3 +89,6 @@ The Pr is 0.000236
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+Lt High School is different from Junior Colledge & Graduate School but could be simular to High School & and Bachelor Degree's. Looking at the Median and it shows that Lt High School is different and Junior Colledge & BachelorDegree's are simular.In conclusion the Pr which is 0.000236 adds to the confirmation due to the small scale percentage that there is no  simularity, and a 95% chance that they will ever be the same.
