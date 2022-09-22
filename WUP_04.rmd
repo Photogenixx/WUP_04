@@ -46,7 +46,7 @@ mutate(across(where(is.character), as.factor))
 ```{r}
 boxplot(WORDSUM~DEGREE,data=wup04data)
 ```
-
+The boxplot data shows that Graduate Degree's have the highest median (11) and Bachelor (10),Junior Colledge (10)High School(9) LT High School (8) fall below in order consecutively 11,10,9,8 This does not continue, a change in the data is made clearer in the more detailed information given by the WORDSUM DATA showing that the Max data is different.it shows that all of them showed (12) withe exception of LT High School(11) HOWEVER The Graduate remained the highest in the Median, MAX and the Mean being 10.095238. Junior College 9.916667 Bachelor Degree 9.204545 High School 8.282353 Lt High School 7.750000. This clearly shows the data this supports the null hypothesis show in the scores of Bachelor and Junior Colledge.
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
