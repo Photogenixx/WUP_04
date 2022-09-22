@@ -28,7 +28,7 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 The decision was made to use a boxplot and favstats to analyze our information
 
-``````{r eval=FALSE}
+```{r eval=FALSE}
 wup04data <- wup04data %>%
 mutate(across(where(is.character), as.factor))
 ```
@@ -58,7 +58,11 @@ The boxplot data shows that Graduate Degree's have the highest median (11) and B
 ```{r}
 favstats(WORDSUM~DEGREE,data=wup04data)
 ```
+
+
 ## Numerical Descriptive Results
+
+
 The wordsum data is greater in its accuracy describing in detail,showing that the Max data is different.it shows that all of them showed (12) withe exception of LT High School(11) HOWEVER The Graduate remained the highest in the Median, MAX and the Mean being 10.095238. Junior College 9.916667 Bachelor Degree 9.204545 High School 8.282353 Lt High School 7.750000. This clearly shows that the data does supports the null hypothesis showing that there is at least two Hi scores which is shown by the scores of Bachelor and Junior Colledge.
 
 ## Inferential Results
