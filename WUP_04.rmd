@@ -71,19 +71,16 @@ summary.aov(model1)
 
 
 ```{r}
-#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
-par(mar = c(3, 20, 2, 2))
-plot((model1),las=2)
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the facto
 ```
 ```{r}
 #we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
 par(mar = c(3, 20, 2, 2))
-plot(TukeyHSD(model1),las=2)
+plot(TukeyHSD(model1,cons.level =0.95),las=2)
 ```
-## Repeated Measures Anova  
 
 ## Inferential description results
-The Pr is 0.000236 stating the possibility of the null hypothesis being incorrect. I except the data results.
+The Pr is 0.000236 
 
 
 
